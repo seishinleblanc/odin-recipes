@@ -1,0 +1,10 @@
+h1 {
+    font-family: Copperplate, fantasy;
+    background-color: rgb(160, 164, 170);
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 450px;
+}
