@@ -1,22 +1,52 @@
-h1 {
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/dark-damask-seamless-pattern-background-elegant-luxury-texture-wallpapers_1217-1174.jpg?size=338&ext=jpg&ga=GA1.2.907950604.1678470132&semt=ais);
+    background-size: auto;
+    background-color: #cccccc;
+}
+
+.header {
     font-family: Copperplate, fantasy;
-    background-color:rgb(160, 164, 170);
+    font-size: xx-large;
+    color: rgb(182, 144, 226);
+    background-color: rgb(16, 16, 16);
     text-align: center;
+    padding: 30px;
 }
 
 h2{
     margin: 10px;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    width: 225px;
+    font-family: Copperplate, fantasy;
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+    color:rgb(182, 144, 226);
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 300px;
+    border-radius: 10px;
+    background: url(https://i.imgur.com/9SM4mxU.jpeg) no-repeat;
+}
+
 .categories-box{
     display: flex;
+    background-color: rgb(177, 165, 184);
     text-align: center;
-    justify-content: center;
-    gap: 52px;
+    justify-content: space-between;
+    padding: 0 80px;
 }
 
 .categories{
-    max-width: 200px;
+    max-width: 300px;
 }
 
 ul {
@@ -26,4 +56,20 @@ ul {
 img {
     height: auto;
     width: 450px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(182, 144, 226);
+}
+.footer {
+    background-color:  rgb(16, 16, 16);
+    color: rgb(182, 144, 226);
+    text-align: center;
+    margin-top: auto;
+    padding: 12px;
 }
